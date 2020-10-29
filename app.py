@@ -41,7 +41,7 @@ def multiply(number1,number2):
 
     if number1.isdigit() == True and number2.isdigit() == True:
         number = int(number1) * int(number2)
-        return f'{number1} times {number2} equals {number}'
+        return f'{number1} times {number2} equals? {number}'
     else:
         return f'Invalid inputs: {number1} and {number2}. Please try again by entering 2 numbers!'
 
